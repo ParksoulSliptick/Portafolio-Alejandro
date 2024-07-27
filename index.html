@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,26 +8,29 @@
     <!-- oogle Fonts Start -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;900&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;900&display=swap"
+        rel="stylesheet">
     <!-- Google Fonts End -->
 
     <!--Stylesheet Start -->
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/resset.css"> 
-     <!--Stylesheet End -->
+    <link rel="stylesheet" href="css/resset.css">
+    <!--Stylesheet End -->
 </head>
+
 <body>
-    <h1>Pagina de Inicio</h1>
-    <br>
-    <a href="./">
-        <img src="./assets/brand/brand.svg" 
-        alt="Logotipo Alejandro">
-    </a>
-    
-    <nav>
-        <a href="about.html">Acerca de</a>
-        <a href="projects.html">Proyectos</a>
-        <a href="contact.html">Contacto</a>
-    </nav>
+    <header class="header">
+        <div class="header-wrapper">
+            <a class="header-brand" href="./">
+                <img src="./assets/brand/brand.svg" alt="Logotipo Alejandro">
+            </a>
+            <nav class="header-nav">
+                <a class="header-nav-item" href="about.html">Acerca de</a>
+                <a class="header-nav-item" href="projects.html">Proyectos</a>
+                <a class="header-nav-item" href="contact.html">Contacto</a>
+                <a class="header-nav-buttom" href="#">WhatsApp</a>
+            </nav>
+        </div>
+    </header>
 </body>
 </html>
