@@ -1,7 +1,56 @@
 body{
-    background-color: red
+    background-color: white
 }
 
 html{
     font-family: "Montserrat Alternates", sans-serif;
+}
+
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.header-wrapper{
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    padding: 8px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.header-brand{
+
+
+}
+
+.header-nav{
+    display: flex;
+    gap: 24px;
+}
+
+.header-nav-item{
+    color: var(--black);
+    padding: 8px 8px;
+}
+
+.header-nav-item:hover{
+    color: var(--red);
+}
+
+
+
+.header-nav-buttom{
+    color: var(--white);
+    font-weight: 900;
+    padding: 8px 24px;
+    border-radius: 24px;
+    align-items: center;
+    background-color: var(--red);
+}
+
+.header-nav-buttom:hover{
+    background-color: var(--obscure-red);
 }
