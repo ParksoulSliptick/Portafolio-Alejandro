@@ -54,3 +54,60 @@ html{
 .header-nav-buttom:hover{
     background-color: var(--obscure-red);
 }
+
+/*Hero*/
+
+.hero{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+}
+.hero-wrapper{
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: azure;
+}
+.hero-content{
+    padding: 24px;
+    background-color: blue;
+}
+.hero-title{
+    font-size: 84px;
+    font-weight: 900;
+    line-height: 84px;
+    color: var(--obscure-red);
+    margin-bottom: 24px;
+    background-color: blueviolet;
+}
+.hero-paragraph{
+    font-size: 22px;
+    line-height: 24px;
+    color: var(--black);
+    margin-bottom: 24px;
+    background-color: brown;
+}
+
+
+.hero-buttom{
+    width: fit-content;
+    color: var(--white);
+    font-weight: 900;
+    padding: 8px 24px;
+    border-radius: 24px;
+    align-items: center;
+    background-color: var(--red);
+    background: red;
+}
+
+.hero-buttom:hover{
+    background-color: var(--obscure-red);
+}
+
+.hero-profile{
+    background-color: green;
+}
+.hero-image{
+    background-color: navy;
+}
