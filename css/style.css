@@ -61,17 +61,16 @@ html{
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: aqua;
 }
 .hero-wrapper{
     max-width: 1200px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    background-color: azure;
 }
 .hero-content{
     padding: 24px;
-    background-color: blue;
+    flex-direction: column;
+    justify-content: center;
 }
 .hero-title{
     font-size: 84px;
@@ -79,14 +78,12 @@ html{
     line-height: 84px;
     color: var(--obscure-red);
     margin-bottom: 24px;
-    background-color: blueviolet;
 }
 .hero-paragraph{
     font-size: 22px;
     line-height: 24px;
     color: var(--black);
     margin-bottom: 24px;
-    background-color: brown;
 }
 
 
@@ -98,7 +95,6 @@ html{
     border-radius: 24px;
     align-items: center;
     background-color: var(--red);
-    background: red;
 }
 
 .hero-buttom:hover{
@@ -106,8 +102,78 @@ html{
 }
 
 .hero-profile{
-    background-color: green;
+    display: flex;
+    justify-content: center;
+    padding: 24px;
 }
 .hero-image{
-    background-color: navy;
+    border-radius: 50%;
+    width: 90%;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.main-wrapper{
+    width: 100%;
+    max-width: 1200px;
+}
+
+.services{
+    
+}
+
+.services-content{
+    max-width: 600px;
+    margin-bottom: 24px;
+}
+
+.services-title{
+    font-size: 48px;
+    color: var(--obscure-red);
+    font-weight: 900;
+    margin-bottom: 24px;
+}
+
+.services-paragraph{
+    font-size: 20px;
+    line-height: 30px;
+    color: var(--black);
+}
+
+.services-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+   
+}
+
+.services-item{
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    text-align: center;
+    border-radius: 24px;
+    background-color:var(--beige);
+}
+
+.services-image{
+    align-self: center;
+    max-width: 180px;
+}
+
+.services-subtitle{
+    font-size: 32px;
+    font-weight: 900;
+    color: var(--obscure-red);
+}
+
+.services-description{
+    font-size: 18px;
+    line-height: 30px;
+    hyphens: none;
 }
